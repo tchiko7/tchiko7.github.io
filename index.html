@@ -1,11 +1,58 @@
+<!DOCTYPE html>
 <html>
-
 <head>
+  <title>Fragrance Saver EU</title>
+  <link rel="icon" href="titlelogo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      user-select: none;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+    }
+    h1, h2, h3 {
+      font-weight: 300;
+    }
+    img {
+      -webkit-user-drag: none; /* For WebKit-based browsers (Chrome, Safari) */
+    }
+    @media only screen and (max-width: 600px) {
+      #img1 #img3 {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  </style>
 
 </head>
 
-<body>
-  <h1>test</h1>
-</body>
 
+<body style="background-color: #d1c9d6; overflow: hidden;"></body>
+  <header style="position: absolute; display: flex; align-items: center; top: 20px; left: 20px;">
+    <img src="icon.png" style="height: 4em; width: auto; margin-right:10px;">
+    <h1 style="margin: 0;">Fragrance Saver EU</h1>
+  </header>
+    
+
+  <div style="display: flex; align-items: flex-end; height: 100vh; width: 100vw;">
+    <div style="margin-left:auto; display: flex; margin-right:20px">
+      <img id="slideshow" id="img1" src="ss3.png" style="max-height:67.5vh; max-width:30vw; align-self: flex-end;">
+      <img id="slideshow" id="img2" src="ss5.png" style="max-height:67.5vh; max-width:30vw; align-self: flex-end;">
+      <img id="slideshow" id="img3" src="ss4.png" style="max-height:67.5vh; max-width:30vw; align-self: flex-end;">
+    </div>
+    <div style="position:absolute; top:12vh; left:2vw; display:flex; flex-direction:column; align-items:flex-start; border-radius: 10px; background-color: rgba(255, 255, 255, 0.15); padding: 10px">
+      <div style="display:flex; align-items:center;">
+        <h2 style="padding: 0; margin-bottom: 8px; margin-top:0">Browse your favourite scents<br>and compare prices <b>across the EU</b>.</h2>
+      </div>
+      <div style="display:flex; align-items:center;">
+        <h3 style="padding: 0; margin-bottom: 8px">Download the app and save money today!</h3>
+      </div>
+      <a href="https://apps.apple.com/us/app/fragrance-saver-eu/id6737202740"><img src="appstore.svg"></a>
+    </div>
+  </div>
 </html>
